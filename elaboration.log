@@ -1,0 +1,74 @@
+Active-HDL 9.1.2353.4205  2019-05-16 12:10:58
+
+Elaboration top modules:
+Architecture                  struct(cpu86_top_tb)
+
+
+----------------------------------------------------------------------------------------------------
+Entity            | Architecture | Library  | Info | Compiler Version         | Compilation Options
+----------------------------------------------------------------------------------------------------
+cpu86_top_tb      | struct       | PIC17C44 |      | 9.1.2353.4205  (Windows) | -O3
+cpu86_top         | struct       | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+sram              | behavior     | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+tester            | behaviour    | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+uartrx            | rtl          | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+cpu86             | struct       | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+uart_top          | struct       | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+bootstrap         | rtl          | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+biu               | struct       | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+datapath          | struct       | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+proc              | rtl          | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+biufsm            | fsm          | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+formatter         | struct       | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+regshiftmux       | regshift     | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+a_table           | rtl          | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+d_table           | rtl          | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+m_table           | rtl          | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+n_table           | rtl          | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+r_table           | rtl          | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+ALU               | rtl          | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+dataregfile       | rtl          | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+ipregister        | rtl          | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+segregfile        | rtl          | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+divider           | rtl_ser      | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+multiplier        | rtl          | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+uart_16750        | rtl          | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+slib_edge_detect  | rtl          | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+slib_input_sync   | rtl          | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+slib_input_filter | rtl          | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+uart_interrupt    | rtl          | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+uart_baudgen      | rtl          | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+slib_clock_div    | rtl          | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+slib_fifo         | rtl          | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+uart_transmitter  | rtl          | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+uart_receiver     | rtl          | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+slib_counter      | rtl          | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+slib_mv_filter    | rtl          | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+uarttx            | rtl          | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+VHDL Package                     | Library  | Info | Compiler Version         | Compilation Options
+----------------------------------------------------------------------------------------------------
+standard                         | std      |      |                          | <unavailable>
+TEXTIO                           | std      |      | 9.1.2353.4205  (Windows) |  -2008
+std_logic_1164                   | ieee     |      | 9.1.2353.4205  (Windows) |  -2008
+std_logic_arith                  | ieee     |      | 9.1.2353.4205  (Windows) | 
+STD_LOGIC_UNSIGNED               | ieee     |      | 9.1.2353.4205  (Windows) | 
+utils                            | PIC17C44 |      | 9.1.2353.4205  (Windows) | -O3
+cpu86pack                        | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+cpu86instr                       | pic17c44 |      | 9.1.2353.4205  (Windows) | -O3
+NUMERIC_STD                      | ieee     |      | 9.1.2353.4205  (Windows) |  -2008
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Library                          | Comment
+----------------------------------------------------------------------------------------------------
+ieee                             | Standard IEEE packages library
+PIC17C44                         | None
+std                              | Standard VHDL library
+----------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+cpu86_top_tb cpu86_top_tb struct
+

@@ -1,0 +1,178 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=PIC17C44
+
+[Library]
+PIC17C44=.\PIC17C44.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+fileopenfolder=D:\ActiveHDL_Designs\PIC17C44project\PIC17C44
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+PIC17C44=.
+Active_lib=
+
+[Files]
+/PIC17C44_alu_rtl.vhd=-1
+/asm.bat=-1
+/PIC17C44_a_table.vhd=-1
+/bin2case.exe=-1
+/bin2coe.exe=-1
+/bin2hex.exe=-1
+/bin2mem.exe=-1
+/PIC17C44_biufsm_fsm.vhd=-1
+/PIC17C44_biu_struct.vhd=-1
+/PIC17C44_Bootstrap_rtl.vhd=-1
+/PIC17C44instr.vhd=-1
+/PIC17C44pack.vhd=-1
+/PIC17C44_struct.vhd=-1
+/PIC17C44_top_struct.vhd=-1
+/PIC17C44_top_tb_struct.vhd=-1
+/PIC17C44_datapath_struct.vhd=-1
+/PIC17C44_dataregfile_rtl.vhd=-1
+/PIC17C44_divider_rtl_ser.vhd=-1
+/PIC17C44_d_table.vhd=-1
+/fileList.txt=-1
+/PIC17C44_formatter_struct.vhd=-1
+/hello.asm=-1
+/hello.hex=-1
+/HELLO.LST=-1
+/ipregister_rtl.vhd=-1
+/jump0400.asm=-1
+/jump0400.bat=-1
+/ldintel.asm=-1
+/ldintel.bat=-1
+/LICENSE=-1
+/loadfname.dat=-1
+/MON88.ASM=-1
+/mon88.bat=-1
+/MON88.COE=-1
+/PIC17C44_multiplier_rtl.vhd=-1
+/PIC17C44_m_table.vhd=-1
+/PIC17C44_n_table.vhd=-1
+/PIC17C44_proc_rtl.vhd=-1
+/README=-1
+/readme.txt=-1
+/PIC17C44_regshiftmux_regshift.vhd=-1
+/run.bat=-1
+/PIC17C44_r_table.vhd=-1
+/PIC17C44_segregfile_rtl.vhd=-1
+/PIC17C44_slib_clock_div.vhd=-1
+/PIC17C44_slib_counter.vhd=-1
+/PIC17C44_slib_edge_detect.vhd=-1
+/PIC17C44_slib_fifo.vhd=-1
+/PIC17C44_slib_input_filter.vhd=-1
+/PIC17C44_slib_input_sync.vhd=-1
+/PIC17C44_slib_mv_filter.vhd=-1
+/PIC17C44_sram.vhd=-1
+/tb.tcl=-1
+/PIC17C44_tester_behaviour.vhd=-1
+/PIC17C44_uartrx.vhd=-1
+/PIC17C44_uarttx.vhd=-1
+/PIC17C44_uart_16750.vhd=-1
+/PIC17C44_uart_baudgen.vhd=-1
+/PIC17C44_uart_interrupt.vhd=-1
+/PIC17C44_uart_receiver.vhd=-1
+/PIC17C44_uart_top_struct.vhd=-1
+/PIC17C44_uart_transmitter.vhd=-1
+/PIC17C44_utils.vhd=-1
+/wave.do=-1
+/Waveform Editor 1.awf=-1
+
+[Files.Data]
+.\src\PIC17C44_alu_rtl.vhd=VHDL Source Code
+.\src\asm.bat=External File
+.\src\PIC17C44_a_table.vhd=VHDL Source Code
+.\src\bin2case.exe=External File
+.\src\bin2coe.exe=External File
+.\src\bin2hex.exe=External File
+.\src\bin2mem.exe=External File
+.\src\PIC17C44_biufsm_fsm.vhd=VHDL Source Code
+.\src\PIC17C44_biu_struct.vhd=VHDL Source Code
+.\src\PIC17C44_Bootstrap_rtl.vhd=VHDL Source Code
+.\src\PIC17C44instr.vhd=VHDL Source Code
+.\src\PIC17C44pack.vhd=VHDL Source Code
+.\src\PIC17C44_struct.vhd=VHDL Source Code
+.\src\PIC17C44_top_struct.vhd=VHDL Source Code
+.\src\PIC17C44_top_tb_struct.vhd=VHDL Source Code
+.\src\PIC17C44_datapath_struct.vhd=VHDL Source Code
+.\src\PIC17C44_dataregfile_rtl.vhd=VHDL Source Code
+.\src\PIC17C44_divider_rtl_ser.vhd=VHDL Source Code
+.\src\PIC17C44_d_table.vhd=VHDL Source Code
+.\src\fileList.txt=Text File
+.\src\PIC17C44_formatter_struct.vhd=VHDL Source Code
+.\src\hello.asm=External File
+.\src\hello.hex=Memory File
+.\src\HELLO.LST=List File
+.\src\ipregister_rtl.vhd=VHDL Source Code
+.\src\jump0400.asm=External File
+.\src\jump0400.bat=External File
+.\src\ldintel.asm=External File
+.\src\ldintel.bat=External File
+.\src\LICENSE=External File
+.\src\loadfname.dat=External File
+.\src\MON88.ASM=External File
+.\src\mon88.bat=External File
+.\src\MON88.COE=External File
+.\src\PIC17C44_multiplier_rtl.vhd=VHDL Source Code
+.\src\PIC17C44_m_table.vhd=VHDL Source Code
+.\src\PIC17C44_n_table.vhd=VHDL Source Code
+.\src\PIC17C44_proc_rtl.vhd=VHDL Source Code
+.\src\README=External File
+.\src\readme.txt=Text File
+.\src\PIC17C44_regshiftmux_regshift.vhd=VHDL Source Code
+.\src\run.bat=External File
+.\src\PIC17C44_r_table.vhd=VHDL Source Code
+.\src\PIC17C44_segregfile_rtl.vhd=VHDL Source Code
+.\src\PIC17C44_slib_clock_div.vhd=VHDL Source Code
+.\src\PIC17C44_slib_counter.vhd=VHDL Source Code
+.\src\PIC17C44_slib_edge_detect.vhd=VHDL Source Code
+.\src\PIC17C44_slib_fifo.vhd=VHDL Source Code
+.\src\PIC17C44_slib_input_filter.vhd=VHDL Source Code
+.\src\PIC17C44_slib_input_sync.vhd=VHDL Source Code
+.\src\PIC17C44_slib_mv_filter.vhd=VHDL Source Code
+.\src\PIC17C44_sram.vhd=VHDL Source Code
+.\src\tb.tcl=Tcl Script
+.\src\PIC17C44_tester_behaviour.vhd=VHDL Source Code
+.\src\PIC17C44_uartrx.vhd=VHDL Source Code
+.\src\PIC17C44_uarttx.vhd=VHDL Source Code
+.\src\PIC17C44_uart_16750.vhd=VHDL Source Code
+.\src\PIC17C44_uart_baudgen.vhd=VHDL Source Code
+.\src\PIC17C44_uart_interrupt.vhd=VHDL Source Code
+.\src\PIC17C44_uart_receiver.vhd=VHDL Source Code
+.\src\PIC17C44_uart_top_struct.vhd=VHDL Source Code
+.\src\PIC17C44_uart_transmitter.vhd=VHDL Source Code
+.\src\PIC17C44_utils.vhd=VHDL Source Code
+.\src\wave.do=Macro
+.\src\Waveform Editor 1.awf=Waveform File
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=cpu86_top_tb|struct|0 
+ShowHide=ShowTopLevel
+Selected=
